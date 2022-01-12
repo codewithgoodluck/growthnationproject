@@ -2,13 +2,17 @@ import React from 'react'
 import styled from 'styled-components'
 import bg from "./Images/bg.png"
 import sectionTwobg from "./Images/countdown.png"
-import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Button, Container, Nav, Navbar } from 'react-bootstrap'
+import SectionThree from './SectionThree'
+import SectionFour from './SectionFour'
+import SectionFive from './SectionFive'
+import SectionSix from './SectionSix'
 
 
 const Navbarsection = () => {
     return (
      <div>
-          <Overlay>
+     <Overlay>
       <NavbarParent>
       <div className='container'>
         <div>
@@ -287,51 +291,19 @@ businesses.</p>
   </div> 
 </SectionTwo>
 
-
 <SectionThree>
-  <div>
-    <span>
-    About Do Growth Nations Club
-    </span>
-    <div>
-    <div className='eclips'>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        
-        </div>
-
-    </div>
-  
-  </div>
-  
 </SectionThree>
+
+<SectionFour title="What You Will Learn">
+</SectionFour>
+<SectionFive></SectionFive>
+
+<SectionFour title="Our Trainers">
+</SectionFour>
+
+<SectionSix></SectionSix>
+
+
 
      </div>
      
@@ -469,6 +441,7 @@ const SectionOne=styled.div`
 `
 
 const SectionTwo=styled.div`
+position:relative;
 background:url(${sectionTwobg});background-size: cover; background-repeat:no-repeat; height:300px;;
 background-color:none;
 margin-top:70px;
@@ -487,14 +460,15 @@ color:white;
 }
 
 .square {
-  height: 80px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   background-color: white;
   color:black;
   display:flex;
   align-items:center;
   flex-direction:column;
   padding-top:15px;
+  border-radius:10px;
 
 
 
@@ -530,8 +504,3 @@ font-weight:bold;
 
 
 
-const SectionThree=styled.div`
-
-
-
-`

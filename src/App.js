@@ -1,4 +1,4 @@
-import Navbarsection from "./component/Navbar/Navbarsection";
+import Navbarsection from "./component/cover/Navbarsection";
 
 function App() {
   return (
