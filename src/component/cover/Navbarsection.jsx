@@ -13,8 +13,10 @@ const Navbarsection = () => {
     return (
      <div>
      <Overlay>
+  
       <NavbarParent>
       <div className='container'>
+      <Navbar>
         <div>
         <img src="Images/Logo2.png" alt="" />
         </div>
@@ -27,7 +29,7 @@ const Navbarsection = () => {
           </ul>
         </div>
         <div>
-        <Navbar>
+       
        <Container>
       <Navbar.Brand href="#home">
       </Navbar.Brand>
@@ -42,133 +44,17 @@ const Navbarsection = () => {
       <Nav.Link href="#pricing" className='navmenue' ><Button style={{backgroundColor:"#124C65", border:"none", color:"white"}}>Contact Us</Button></Nav.Link>
     </Nav>
     </Container>
+  
+        </div>
         </Navbar>
-        </div>
       </div>
 
-      <div className='hero_section'>
-        <div className='polygon_eclips_section'>
-        <div className='polygon'>
-        <img src="Images/Polygon 1.png" alt="" />
-        </div>
-
-        <div className='eclips'>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-
-
-
-        {/* <div className='polygon'  style={{display:'flex', justifyContent:"space-between",marginTop:"20px",  alignItems:"center",}}>
-        <Button variant="info">Contact Us</Button>
-        <div>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        </div> */}
-
-        <div className='polygon' style={{display:'flex', position:"relative", alignItems:"center",  marginTop:"50px", marginBottom:"50px"}}>
-        <Button  style={{width:"400px", position:"absolute", border:"none",backgroundColor:"#124C65", marginLeft:"-180px", height:"50px", color:"white"}}>Get Events Ticket</Button>
-        <div style={{marginBottom:"35px", marginLeft:"300px", position:"absolute"}}>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-      
-        </div>
-
-
-
-        <div className='polygon' style={{display:'flex', position:"relative", alignItems:"center", paddingTop:"20px", marginTop:"50px", marginBottom:"50px"}}>
-        <Button  style={{width:"400px", position:"absolute", border:"none",backgroundColor:"white", marginLeft:"-180px", height:"50px", color:"green"}}>Partner with Us</Button>
-        <div style={{marginBottom:"35px", marginLeft:"300px", position:"absolute"}}>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-      
-        </div>
-
-
-        
-
-        
-
-
-
-
-
-
-
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        <div className='polygon'>
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        <img src="Images/Ellipse.png" alt="" />
-        </div>
-        
-        </div>
-
-        </div>
-
-        <div>
-        <div className='hero_section_text'>
-          <div className="hero_section_text_left">
-          <h3>Present</h3>
-          <h1>
-            2021 GROWTH
-          </h1>
-          <h1>
-            NATION SUMMIT
-          </h1>
-          <p>Learn practical growth marketing strategies channels <br/>
-such as; Social media marketing, Content marketing,<br/>
-digital marketing and six other channels for small
-businesses.</p>
-          </div>
-
-          {/* <div className="hero_section_text_right">
-          <h5>Present</h5>
-          <h6>
-            2021 GROWTH
-          </h6>
-          <h6>
-            NATION SUMMIT
-          </h6>
-          <p>Learn practical growth marketing strategies channels
-such as; Social media marketing, Content marketing,
-digital marketing and six other channels for small
-businesses.</p>
-          </div>
-          */}
-        </div>
-        </div>
-        
-
-        
-       
-      </div>
+    
       </NavbarParent>
+    
     </Overlay>
 
-<SectionOne>
+{/* <SectionOne>
   <div className="sectionParent container">
   <div className="sectionInner">
     <div>
@@ -301,7 +187,7 @@ businesses.</p>
 <SectionFour title="Our Trainers">
 </SectionFour>
 
-<SectionSix></SectionSix>
+<SectionSix></SectionSix> */}
 
 
 
