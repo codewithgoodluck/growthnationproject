@@ -6,7 +6,7 @@ import sectionTwobg from "./Images/countdown.png"
 import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import SectionFive from './SectionFive'
-import SectionSix from './SectionSix'
+import SectionSix from './SectionSeven'
 import { Nav, Navbar, Container, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import Hero from './Hero'
 

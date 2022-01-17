@@ -6,7 +6,7 @@ import { Button, Card, CardGroup, Col, Container, Nav, Navbar, Row } from 'react
 import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import SectionFive from './SectionFive'
-import SectionSix from './SectionSix'
+import SectionSix from './SectionSeven'
 import { Devices } from './Devices';
 
 
